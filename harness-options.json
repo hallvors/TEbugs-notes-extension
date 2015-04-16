@@ -1,0 +1,52 @@
+{
+ "check_memory": false, 
+ "enable_e10s": false, 
+ "is-sdk-bundled": false, 
+ "jetpackID": "jid1-xHnyApCW9a61sQ@jetpack", 
+ "loader": "addon-sdk/lib/sdk/loader/cuddlefish.js", 
+ "main": "main", 
+ "mainPath": "bugzilla-te-bug-annotations/main", 
+ "manifest": {
+  "bugzilla-te-bug-annotations/main": {
+   "docsSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", 
+   "jsSHA256": "dce0b1386a1da34ee54897524f757d81eb62b9007858c58a73fb0a7db94825e7", 
+   "moduleName": "main", 
+   "packageName": "bugzilla-te-bug-annotations", 
+   "requirements": {
+    "sdk/page-mod": "sdk/page-mod", 
+    "sdk/request": "sdk/request", 
+    "sdk/self": "sdk/self"
+   }, 
+   "sectionName": "lib"
+  }
+ }, 
+ "metadata": {
+  "addon-sdk": {
+   "description": "Add-on development made easy.", 
+   "keywords": [
+    "javascript", 
+    "engine", 
+    "addon", 
+    "extension", 
+    "xulrunner", 
+    "firefox", 
+    "browser"
+   ], 
+   "license": "MPL 2.0", 
+   "name": "addon-sdk"
+  }, 
+  "bugzilla-te-bug-annotations": {
+   "author": "Hallvord", 
+   "description": "Add test results to bugzilla listings", 
+   "license": "MPL 2.0", 
+   "main": "main", 
+   "name": "bugzilla-te-bug-annotations", 
+   "version": "0.1"
+  }
+ }, 
+ "name": "bugzilla-te-bug-annotations", 
+ "parseable": false, 
+ "sdkVersion": "firefox-24-06-12-2013-235-g47f42c5", 
+ "staticArgs": {}, 
+ "verbose": false
+}
